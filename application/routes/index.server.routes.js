@@ -4,4 +4,8 @@ module.exports = function (app) {
 
 	// 1
 	app.get('/', index.renderLandingPage); 
+	//2
+	app.get('/api/getMessages', index.getMessages);
+	//3
+	app.post('/api/postMessage', index.postMessage);
 };

@@ -1,8 +1,35 @@
-<div class="container-fluid" ng-show="loadStatus">
+<div>
+<div class="container-fluid baseContainer" ng-show="loadStatus" style="height:100vh;">
 	<h3 id="loading-general">Loading... <i class="fa fa-cog fa-spin"></i></h3>
 </div>
-<div ng-hide="loadStatus" class="container-fluid">
+<div  class="container-fluid baseContainer" ng-hide="loadStatus" style="height:80vh;">
 	<div class="col-md-12">
-		hi
+		<div ng-repeat="message in messages">{{message.message}}</div>
 	</div>
-</div>	
+	<div class="col-md-12" style="width:100%">
+		<input id="m" ng-model="message" autocomplete="off" />
+    	<button ng-click="send(message)">Send</button>
+	</div>
+
+</div>
+<div  class="container-fluid baseContainer" ng-show="loadFailed" style="height:100vh;">
+	<div class="col-md-12">
+		hey something went hay wire could you try after some time
+	</div>
+</div>
+
+<style>
+	.baseContainer : {
+		height:100vh;
+    	width:100vw;
+	}
+	#loading-general{
+	    padding-top: 20%;
+	    padding-left:40%;
+	    font-family: "Source Sans Pro", sans-serif;
+	    font-weight: 300;
+	    font-size: 25px;
+	    color: #77778A;
+	}
+</style>
+</div>
