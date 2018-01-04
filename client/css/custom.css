@@ -1,0 +1,223 @@
+.loginBtn{
+	margin-top: -63px; 
+    float: right;
+    height: 36px;
+    width: 85px; 
+    padding: 6px;
+}
+.intro{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700 !important;
+	/*min-height:160px;*/
+	color:#2196f3;
+	color:#283655;
+	margin-top:-80px;
+	/*margin-bottom:20px;*/
+	font-size: 48px;
+	/*color: #ccc;*/
+}
+#home{
+	height:650px;
+/*background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.51, #FFFFFF),
+	color-stop(1, #DBEBFD)
+);
+background-image: -o-linear-gradient(top, #FFFFFF 51%, #DBEBFD 100%);
+background-image: -moz-linear-gradient(top, #FFFFFF 51%, #DBEBFD 100%);
+background-image: -webkit-linear-gradient(top, #FFFFFF 51%, #DBEBFD 100%);
+background-image: -ms-linear-gradient(top, #FFFFFF 51%, #DBEBFD 100%);
+background-image: linear-gradient(to top, #FFFFFF 51%, #DBEBFD 100%);*/
+}
+.trial-hero{
+	width:300px;
+}
+.space{
+	min-height: 60px;
+}
+.kl-font{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.sub-intro{
+	color:#555;
+	/*font-weight: 300;*/
+}
+.integration-logos{
+	height:300px;
+}
+.tag-line{
+	margin-top: 60px;
+	padding-top: 20px;
+	/*font-weight: 200;*/
+	font-size: 18px;
+	letter-spacing: 1px;
+	/*text-transform: uppercase;*/
+
+}
+.dark-bg{
+	/* IE10+ */ 
+background-image: -ms-linear-gradient(top, #FFFFFF 30%, #DBEBFD 90%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #FFFFFF 30%, #DBEBFD 90%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #FFFFFF 30%, #DBEBFD 90%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(30, #FFFFFF), color-stop(90, #DBEBFD));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #FFFFFF 30%, #DBEBFD 90%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to bottom, #FFFFFF 30%, #DBEBFD 90%);
+}
+.seperator{
+	margin-left: 150px;
+	margin-right: 150px;
+	border-top: 1px solid #ddd;
+}
+
+.top-logo{
+	max-width: 110px;
+}
+.logo-header{
+	margin-top:50px;
+	margin-bottom: 50px;
+	font-size: 30px;
+	font-weight: 100;
+	color:#666;
+}
+.client-logos li img{
+	opacity: 1;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.pink-text{
+	color: #ff6b6b;
+	color:#ef215f;
+	color:#e91e63
+}
+.blue-text{
+	color:#2196f3;
+	color:#283655;
+}
+
+.clients h4{
+	padding-top: 20px;
+	/*font-size: 24px;*/
+	/*color:#008ed6;*/
+	/*color:#ccc;*/
+	/*font-weight: 400;*/
+
+}
+.logo-gmail{
+	max-height:none !important;
+	/*height: 90px;*/
+	width: 60px;
+	height: auto;
+}
+.logo-outlook{
+	width: auto;
+	height: auto;
+}
+.logo-zapier{
+	width: auto;
+	height: auto;
+}
+.logo-in{
+	max-height:none !important;
+	/*height: 90px;*/
+	width: 47px;
+	height: auto;
+	
+	
+}
+.logo-pipedrive{
+	max-height:none !important;
+	/*height: 90px;*/
+	width: 135px;
+	height: auto;
+	
+	
+}
+.logo-calendly{
+	max-height:none !important;
+	/*height: 90px;*/
+	width: 85px;
+	height: auto;
+	
+	
+}
+.logo-salesforce{
+	/*height: 90px;*/
+	max-height:none !important;
+	height: 80px;
+	width: auto;
+	
+	
+}
+.dark-textt{
+	color:#A4BDFD;
+	color:#A2BBFA
+	font-weight: 200;
+	font-family: Source Sans Pro;
+}
+.inverted-bg{
+	background-color: #1271c4 !important;
+	color:#fff;
+	font-family: Source Sans Pro;
+}
+.ccolored-text{
+	color:#fff;
+	/*font-weight: 200;*/
+}
+.extra-height{
+	padding-bottom: 30px;
+}
+.package-list{
+	font-size: 14px;
+	/*text-align: left;*/
+}
+.logo-chrome{
+	/*height: 90px;*/
+	max-height:none !important;
+	height: 60px;
+	width: auto;
+	
+	
+}
+.trial-container{
+	min-height:350px;
+}
+
+.thin-font{
+	font-weight:200;
+}
+.pink-tag{
+	display: block;
+	font-size: 18px;
+}
+.pale-blue{
+	background-color: #DBEBFD;
+}
+
+.prospector-img{
+	height:400px !important;
+	width: auto !important;
+}
+.gmail-compose{
+	height:400px !important;
+	width: auto !important;
+}
+.sidebar{
+	width:80% !important;
+	height: auto;
+}
+.white-textt{
+	color:#fff;
+
+}
